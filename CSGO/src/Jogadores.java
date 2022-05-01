@@ -1,0 +1,34 @@
+
+public class Jogadores {
+    
+    private String nome;
+    private String nick;
+    private float salario;
+    
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+
+    public float getSalario() {
+        return salario;
+    }
+
+    public void setSalario(float salario) {
+        this.salario = salario;
+    }
+
+    public String getNick() {
+        return nick;
+    }
+
+    public void setNick(String nick) {
+        this.nick = nick;
+    }
+    
+    
+}
